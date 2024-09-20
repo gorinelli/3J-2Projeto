@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.comcss2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+:root{
+    --cor-de-fundo:  #E68369;
+    --cor-de-primaria: #131842;
+    --cor-de-segundaria: #ECCEAE;
+    --fonte: "EB Garamond", serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-primaria);
+    font-family: var(--fonte);
+}
