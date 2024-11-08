@@ -1,7 +1,7 @@
 import { getCSS, tickfont } from "./comum.js";
 
 async function quantidadeDeUsuarios() {
-const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json&#39;
+const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json&#39';
 const resultado = await fetch(url);
 const dados = await resultado.json();
 const nomeDasRedes = Object.keys(dados);
